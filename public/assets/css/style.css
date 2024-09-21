@@ -1,0 +1,128 @@
+body {
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+  color: var(--bs-dark);
+}
+
+.small {
+  font-size: 80%;
+}
+
+#hero {
+  padding: 100px 0px;
+  color: white;
+}
+
+#hero h1 {
+  font-size: 3.5rem !important;
+  font-weight: bold;
+}
+
+#layanan,
+#about,
+#tim,
+#testimoni,
+#blog,
+#klien {
+  padding: 80px 0px;
+}
+
+/*** Carousel Hero Header Start ***/
+.hero-carousel .owl-nav {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+}
+
+.hero-carousel .owl-nav .owl-prev,
+.hero-carousel .owl-nav .owl-next {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  border-radius: 60px;
+  background: rgba(255, 255, 255, 0.5) !important;
+  color: var(--bs-primary) !important;
+  font-size: 300% !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.5s;
+}
+
+.hero-carousel .owl-nav .owl-prev {
+  left: -80px;
+}
+.hero-carousel .owl-nav .owl-next {
+  right: -80px;
+}
+
+.hero-carousel .owl-nav .owl-prev:hover,
+.hero-carousel .owl-nav .owl-next:hover {
+  background: white !important;
+}
+
+/*** Testimonial Start ***/
+.testimoni-carousel img {
+  width: auto !important;
+}
+.testimoni-carousel img.gambar {
+  display: block;
+  width: 100% !important;
+}
+.testimoni-carousel .owl-stage-outer {
+  margin-top: 58px;
+  margin-right: -1px;
+}
+
+.testimoni-carousel .owl-nav .owl-prev {
+  position: absolute;
+  top: -58px;
+  left: 0;
+  background: var(--bs-primary);
+  color: var(--bs-white);
+  padding: 5px 30px;
+  border-radius: 30px;
+  transition: 0.5s;
+}
+
+.testimoni-carousel .owl-nav .owl-prev:hover {
+  background: var(--bs-dark);
+  color: var(--bs-white);
+}
+
+.testimoni-carousel .owl-nav .owl-next {
+  position: absolute;
+  top: -58px;
+  right: 0;
+  background: var(--bs-primary);
+  color: var(--bs-white);
+  padding: 5px 30px;
+  border-radius: 30px;
+  transition: 0.5s;
+}
+
+.testimoni-carousel .owl-nav .owl-next:hover {
+  background: var(--bs-dark);
+  color: var(--bs-white);
+}
+/*** Testimonial End ***/
+
+/*** Modal ***/
+.modal-dialog {
+  max-width: 800px;
+  margin: 4rem auto;
+}
+
+.modal-body {
+  position: relative;
+  padding: 0px;
+}
+.btn-close {
+  position: absolute;
+  right: -30px;
+  top: 0;
+}
